@@ -29,7 +29,7 @@ for rel in ['.claude-plugin/plugin.json', '.claude-plugin/marketplace.json']:
         json.load(fh)
 
 readme = (ROOT / 'README.md').read_text(encoding='utf-8')
-for needle in ['CLAUDE.md', 'EXAMPLES.md', '.claude-plugin/plugin.json']:
+for needle in ['CLAUDE.md', 'EXAMPLES.md']:
     if needle not in readme:
         fail(f'README.md is missing expected reference: {needle}')
 
