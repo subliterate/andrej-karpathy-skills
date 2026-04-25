@@ -138,6 +138,10 @@ These guidelines are working if you see:
 - **Clarifying questions come before implementation** — Not after mistakes
 - **Clean, minimal PRs** — No drive-by refactoring or "improvements"
 
+## Examples
+
+For ready-made examples of how to merge these guidelines into existing instructions, see [EXAMPLES.md](EXAMPLES.md).
+
 ## Customization
 
 These guidelines are designed to be merged with project-specific instructions. Add them to your existing `CLAUDE.md` or create a new one.
